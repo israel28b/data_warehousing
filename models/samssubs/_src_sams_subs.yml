@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: sams_landing
+    database: ISRAELBELL
+    schema: SAMSSUBS_SOURCE_SAMS_SUBS
+    tables:
+      - name: customer
+      - name: product
+      - name: employee
+      - name: orderdetails
+      - name: '"ORDER"'
+      - name: store
+      - name: sandwich

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sams_landing
+    database: ISRAELBELL
+    schema: SAMSSUBS_SOURCE
+    tables:
+      - name: web_traffic_events
